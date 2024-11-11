@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WandurLust</title>
+</head>
+<body>
+    <h2>Delete Information</h2>
+    <form method="POST" action="/listings/<%= listing._id %>?_method=DELETE">
+        <input type="text" placeholder="enter your id" name="_id" >
+        <button>delete</button>
+    </form>
+</body>
+</html>
